@@ -24,7 +24,7 @@ export class FaceSnapComponent implements OnInit {
     var random = Math.random();
     var colorPicker = '';
     if (random > 0 && random < 0.25) {
-      colorPicker = '#FADCA';
+      colorPicker = '#FADCAD';
     } else if (random > 0.25 && random < 0.5) {
       colorPicker = '#EEB8B8';
     } else if (random > 0.5 && random < 0.75) {
