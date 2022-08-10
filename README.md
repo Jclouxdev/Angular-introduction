@@ -17,3 +17,5 @@ ng v
 ```
 
 > ⚠️ Mac User may have an error during the installation `EACCES: permission denied`. If it's the case, follow this guide in the [npm doc](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally).
+
+docker-compose run --rm angular-service sh
