@@ -21,3 +21,23 @@ ng v
 💡 I choosed to use docker instead, and install the CLI in a container
 
 > Access to a bash in a container `docker-compose run --rm angular-service sh`
+
+## Generate component w/ CLI
+
+```
+ng generate component face-snap
+```
+
+Output :
+
+```bash
+Global setting: not set
+Local setting: enabled
+Effective status: enabled
+CREATE src/app/face-snap/face-snap.component.scss (0 bytes)
+CREATE src/app/face-snap/face-snap.component.html (24 bytes)
+CREATE src/app/face-snap/face-snap.component.ts (287 bytes)
+UPDATE src/app/app.module.ts (406 bytes)
+```
+
+## Data-biding

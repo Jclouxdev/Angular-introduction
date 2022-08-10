@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+.snap-card {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+
+  margin: 1em;
+  width: max-content;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+}
+
+.snap-card__image {
+  border-radius: 7px 0px 0px 7px;
+}
+
+.snap-card__card-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  color: white;
+  padding: 2em;
+}
+
+.snap-card__card-data__title {
+  margin: 0;
+}
+
+.snap-card__card-data__description {
+  opacity: 0.8;
+}

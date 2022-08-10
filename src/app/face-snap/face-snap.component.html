@@ -1,0 +1,23 @@
+<div class="snap-card" [style]="pickPastelColor()">
+  <img class="snap-card__image" [src]="imageUrl" [alt]="title" />
+  <div class="snap-card__card-data">
+    <h2 class="snap-card__card-data__title">{{ title }}</h2>
+    <p class="snap-card__card-data__description">{{ description }}</p>
+    <p class="snap-card__card-data__date">
+      Posté le : {{ createDate.toLocaleDateString() }}
+    </p>
+    <p class="snap-card__card-data__snaps">🤌 {{ snaps }}</p>
+  </div>
+</div>
+
+<div class="snap-card" [style]="pickPastelColor()">
+  <img class="snap-card__image" [src]="imageUrl" [alt]="title" />
+  <div class="snap-card__card-data">
+    <h2 class="snap-card__card-data__title">{{ title }}</h2>
+    <p class="snap-card__card-data__description">{{ description }}</p>
+    <p class="snap-card__card-data__date">
+      Posté le : {{ createDate.toLocaleDateString() }}
+    </p>
+    <p class="snap-card__card-data__snaps">🤌 {{ snaps }}</p>
+  </div>
+</div>
